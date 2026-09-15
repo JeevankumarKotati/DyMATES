@@ -1,0 +1,10 @@
+path: /home/chidwipak/Jeevan/BTP/DyMATES/dataset_multiclass
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  0: with_helmet
+  1: without_helmet
+  2: motorcycle
+  3: license_plate

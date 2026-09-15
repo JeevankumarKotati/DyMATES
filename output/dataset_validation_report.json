@@ -1,0 +1,54 @@
+{
+  "dataset_path": "/home/chidwipak/Jeevan/BTP/DyMATES/dataset_multiclass",
+  "splits": {
+    "train": {
+      "image_count": 5061,
+      "label_count": 5061,
+      "total_bboxes": 9153
+    },
+    "val": {
+      "image_count": 632,
+      "label_count": 632,
+      "total_bboxes": 1123
+    },
+    "test": {
+      "image_count": 634,
+      "label_count": 634,
+      "total_bboxes": 1130
+    }
+  },
+  "integrity_checks": {
+    "missing_images": 0,
+    "missing_labels": 0,
+    "malformed_label_lines": 0,
+    "invalid_class_ids": 0,
+    "boxes_out_of_bounds": 0,
+    "zero_area_boxes": 0,
+    "train_val_leakage_hashes": 1,
+    "train_test_leakage_hashes": 7,
+    "val_test_leakage_hashes": 1
+  },
+  "class_distribution_per_split": {
+    "train": {
+      "0": 5718,
+      "1": 3396,
+      "2": 20,
+      "3": 19,
+      "invalid": 0
+    },
+    "val": {
+      "0": 700,
+      "1": 417,
+      "2": 3,
+      "3": 3,
+      "invalid": 0
+    },
+    "test": {
+      "0": 701,
+      "1": 429,
+      "2": 0,
+      "3": 0,
+      "invalid": 0
+    }
+  }
+}

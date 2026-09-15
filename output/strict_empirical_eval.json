@@ -1,0 +1,10 @@
+{
+  "model_file": "/home/chidwipak/Jeevan/BTP/DyMATES/models/best.pt",
+  "empirical_metrics": {
+    "map50_pct": 68.26,
+    "map50_95_pct": 31.24,
+    "precision_pct": 72.18,
+    "recall_pct": 60.88,
+    "f1_score_pct": 66.05
+  }
+}

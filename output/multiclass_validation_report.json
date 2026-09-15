@@ -1,0 +1,29 @@
+{
+  "split_name": "val",
+  "model_file": "/home/chidwipak/Jeevan/BTP/DyMATES/models/best.pt",
+  "overall_metrics": {
+    "map50_pct": 57.28,
+    "map50_95_pct": 30.72,
+    "precision_pct": 94.33,
+    "recall_pct": 39.89,
+    "f1_score_pct": 56.07
+  },
+  "per_class_metrics": {
+    "with_helmet": {
+      "class_id": 0,
+      "ap50_pct": 87.7
+    },
+    "without_helmet": {
+      "class_id": 1,
+      "ap50_pct": 88.19
+    },
+    "motorcycle": {
+      "class_id": 2,
+      "ap50_pct": 11.48
+    },
+    "license_plate": {
+      "class_id": 3,
+      "ap50_pct": 41.75
+    }
+  }
+}

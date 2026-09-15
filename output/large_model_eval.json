@@ -1,0 +1,20 @@
+{
+  "model_path": "/home/chidwipak/Jeevan/BTP/DyMATES/models/best.pt",
+  "dataset_total_samples": 6707,
+  "training_samples": 5828,
+  "image_metrics": {
+    "images_evaluated": 634,
+    "detection_rate_pct": 74.29,
+    "total_detections": 834,
+    "high_conf_detections": 329,
+    "avg_confidence_pct": 47.97,
+    "fps": 13.9
+  },
+  "video_metrics": {
+    "video_path": "/home/chidwipak/Jeevan/BTP/DyMATES/videos/test_video.mp4",
+    "total_frames": 541,
+    "video_fps": 13.3,
+    "wrong_way_precision": "100.0%",
+    "rash_driving_precision": "100.0%"
+  }
+}

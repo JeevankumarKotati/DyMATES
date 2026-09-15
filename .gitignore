@@ -1,0 +1,27 @@
+# Python Caches & Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+# Datasets & Large Files
+dataset/
+dataset_large/
+dataset_multiclass/
+dataset_prepared/
+hf_helmet_dataset/
+hf_traffic_helmet/
+torchinductor_chidwipak/
+
+# System & IDE
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# Large Outputs & Runs (Keep trained model checkpoints in models/)
+runs/
+output/dymates_output.mp4
+output/email_alerts/

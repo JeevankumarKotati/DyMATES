@@ -1,0 +1,21 @@
+{
+  "split_name": "test",
+  "model_file": "/home/chidwipak/Jeevan/BTP/DyMATES/models/best.pt",
+  "overall_metrics": {
+    "map50_pct": 90.38,
+    "map50_95_pct": 53.2,
+    "precision_pct": 89.95,
+    "recall_pct": 80.86,
+    "f1_score_pct": 85.17
+  },
+  "per_class_metrics": {
+    "with_helmet": {
+      "class_id": 0,
+      "ap50_pct": 90.24
+    },
+    "without_helmet": {
+      "class_id": 1,
+      "ap50_pct": 90.51
+    }
+  }
+}

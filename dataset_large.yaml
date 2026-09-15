@@ -1,0 +1,11 @@
+path: /home/chidwipak/Jeevan/BTP/DyMATES/dataset_large
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  0: helmet
+  1: no-helmet
+  2: motorcycle
+  3: license-plate
+

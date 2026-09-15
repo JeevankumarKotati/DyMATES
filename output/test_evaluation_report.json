@@ -1,0 +1,29 @@
+{
+  "timestamp": "2026-09-13T05:14:02.168324",
+  "device": "CPU",
+  "model_path": "models/best.pt",
+  "class_names": {
+    "0": "helmet"
+  },
+  "image_metrics": {
+    "error": "1"
+  },
+  "image_inference": {
+    "images_count": 387,
+    "avg_latency_ms": 93.91,
+    "fps": 10.6,
+    "total_detections": 483,
+    "avg_confidence": 0.402
+  },
+  "video_metrics": {
+    "video_path": "videos/test_video.mp4",
+    "total_frames": 541,
+    "avg_frame_latency_ms": 114.66,
+    "video_fps": 8.7,
+    "objects_tracked": 2,
+    "helmet_violations": 0,
+    "triple_violations": 0,
+    "wrong_way_violations": 0,
+    "rash_driving_violations": 0
+  }
+}

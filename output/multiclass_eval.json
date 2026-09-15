@@ -1,0 +1,15 @@
+{
+  "model_path": "/home/chidwipak/Jeevan/BTP/DyMATES/models/best.pt",
+  "dataset_yaml": "dataset_multiclass.yaml",
+  "total_matched_pairs": 6327,
+  "training_pairs": 5061,
+  "validation_pairs": 632,
+  "test_pairs": 634,
+  "metrics": {
+    "map50_pct": 0.06,
+    "map50_95_pct": 0.01,
+    "precision_pct": 0.66,
+    "recall_pct": 1.14,
+    "f1_score_pct": 0.84
+  }
+}
